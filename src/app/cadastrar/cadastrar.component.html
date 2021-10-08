@@ -28,13 +28,13 @@
 
                     <div class="form-group">
                         <label for="senha">Senha</label>
-                        <input (input)='confirmSenha($event)' class="form-control" type="text" name="senha" id="senha"
+                        <input (input)='confirmSenha($event)' class="form-control" type="password" name="senha" id="senha"
                          placeholder="Sua senha">    
                     </div>
 
                     <div class="form-group">
                         <label for="confirmeSenha">Confirmar Senha</label>
-                        <input [(ngModel)]='user.senha' class="form-control" type="text" name="confirmeSenha" id="confirmeSenha"
+                        <input [(ngModel)]='user.senha' class="form-control" type="password" name="confirmeSenha" id="confirmeSenha"
                          placeholder="Confirme sua senha">    
                     </div>
 
