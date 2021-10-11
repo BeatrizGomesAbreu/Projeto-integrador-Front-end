@@ -21,3 +21,21 @@
 .verde3{
     background-color: #1f2d16;
 }
+
+.submit-lente {
+    position:absolute;
+    top:0; right:-5px;
+    z-index:0;
+    border:none;
+    background:transparent;
+    outline:none;
+  }
+  
+  .submit-line {
+    position: relative;
+    width: 200px;
+  }
+  
+  .submit-line input {
+    width: 100%;
+  }
