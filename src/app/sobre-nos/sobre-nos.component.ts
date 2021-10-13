@@ -3,12 +3,11 @@ import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment.prod';
 
 @Component({
-  selector: 'app-pagina-inicial',
-  templateUrl: './pagina-inicial.component.html',
-  styleUrls: ['./pagina-inicial.component.css']
+  selector: 'app-sobre-nos',
+  templateUrl: './sobre-nos.component.html',
+  styleUrls: ['./sobre-nos.component.css']
 })
-export class PaginaInicialComponent implements OnInit {
-
+export class SobreNosComponent implements OnInit {
 
   constructor(
     private router: Router
@@ -22,6 +21,7 @@ export class PaginaInicialComponent implements OnInit {
       alert('Sua sessão expirou, faça o login novamente')
       this.router.navigate(['/entrar'])
     }
+  
   }
 
 }

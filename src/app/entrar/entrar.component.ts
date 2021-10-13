@@ -31,7 +31,7 @@ export class EntrarComponent implements OnInit {
       environment.foto = this.userLogin.foto
       environment.id = this.userLogin.id
 
-      this.router.navigate(['/inicio'])
+      this.router.navigate(['/pagina-inicial'])
     }, erro => {
       if(erro.status == 500){
         alert('Usuario ou senha incorretos')

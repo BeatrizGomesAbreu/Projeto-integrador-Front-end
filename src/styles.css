@@ -23,15 +23,15 @@ ul.social-network li{
     color: black;
 }
 
-.marrom1{
-    color: #be6731;
+.bgMarrom1{
+    background-color: #be6731;
 }
 
-.marrom2{
+.bgMarrom2{
     background-color: #b55219;
 }
 
-.marrom3{
+.bgMarrom3{
     background-color: #8d2a00;
 }
 
@@ -57,6 +57,18 @@ ul.social-network li{
 
 .fonteVerde3{
     color: #1f2d16;
+}
+
+.fonteMarrom1{
+    color: #be6731;
+}
+
+.fonteMarrom2{
+    color: #b55219;
+}
+
+.fonteMarrom3{
+    color: #8d2a00;
 }
 
 
