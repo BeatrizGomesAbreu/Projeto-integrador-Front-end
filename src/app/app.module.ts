@@ -1,6 +1,7 @@
 import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 import { HttpClientModule } from "@angular/common/http";
 import { NgModule } from "@angular/core";
+import { ModalModule } from "ngx-bootstrap/modal";
 import { FormsModule } from "@angular/forms";
 import { BrowserModule } from "@angular/platform-browser";
 import { AppRoutingModule } from "./app-routing.module";
@@ -19,6 +20,8 @@ import { UsuarioEditComponent } from './edit/usuario-edit/usuario-edit.component
 import { PaginaInicialComponent } from './pagina-inicial/pagina-inicial.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { AlertasComponent } from './alertas/alertas.component';
+import { OrderModule } from "ngx-order-pipe";
+
 
 @NgModule({
   declarations: [
@@ -42,7 +45,9 @@ import { AlertasComponent } from './alertas/alertas.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ModalModule.forRoot(),
+    OrderModule
   ],
 
   providers: [{
