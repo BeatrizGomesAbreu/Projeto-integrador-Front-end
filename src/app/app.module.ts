@@ -18,6 +18,7 @@ import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delet
 import { UsuarioEditComponent } from './edit/usuario-edit/usuario-edit.component';
 import { PaginaInicialComponent } from './pagina-inicial/pagina-inicial.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
+import { AlertasComponent } from './alertas/alertas.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
     PostagemDeleteComponent,
     UsuarioEditComponent,
     PaginaInicialComponent,
-    SobreNosComponent
+    SobreNosComponent,
+    AlertasComponent
   ],
   imports: [
     BrowserModule,
