@@ -26,6 +26,8 @@ export class InicioComponent implements OnInit {
   listaTemas: Tema[]
   idTema: number
   nomeTema: string
+  foto = environment.foto
+  
 
 
   user: User = new User()
